@@ -10,7 +10,7 @@
 </template>
 
 <script setup>
-    const studioName = "Pagliassotto";
+    const studioName = "Pagliassotto Rigaldo";
     const { conf } = defineProps(['conf']);
 </script>
 
