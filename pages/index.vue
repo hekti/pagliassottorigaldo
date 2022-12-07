@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen">
+    <div>
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
 
@@ -29,6 +29,6 @@ const conf = {
 
 <style scoped>
 .wrap-shadow {
-    @apply fixed -z-10 bg-gradient-to-t from-textDark to-transparent w-screen h-screen
+    @apply fixed top-0 -z-10 bg-gradient-to-t from-textDark to-transparent w-screen h-screen
 }
 </style>

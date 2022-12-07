@@ -1,9 +1,9 @@
 <template>
-    <div class="min-h-screen">
+    <div>
         <Header :conf="conf" />
         <div class="mx-3 md:max-w-lg md:mx-auto p-5">
             <h2 class="text-textLight text-xl md:text-2xl font-semibold mb-5 md:mb-7">Servizi</h2>
-            <div class="columns-2 gap-10 md:gap-20">
+            <div class="columns-2 gap-10 md:gap-20 pb-8">
                 <div v-for="service in services">
                     <Card class="card" :service="service" />
                 </div>

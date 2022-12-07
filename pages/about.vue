@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen">
+    <div>
         <Header :conf="conf" />
         <Info :title="`Lo studio Pagliasotto`">
             <p class=" my-3 flex items-center justify-end"><span>+500 clienti soddisfatti</span> <span

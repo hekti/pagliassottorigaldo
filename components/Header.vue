@@ -1,5 +1,5 @@
 <template>
-    <h1 :class="`font-medium capitalize container text-center text-4xl md:text-5xl w-screen my-5 mx-auto ${ conf.bgLight ? 'text-textDark' : 'text-textLight' }`">
+    <h1 :class="`font-medium capitalize container text-center text-4xl md:text-5xl w-screen py-9 mx-auto ${ conf.bgLight ? 'text-textDark' : 'text-textLight' }`">
         {{ studioName }}
     </h1>
 

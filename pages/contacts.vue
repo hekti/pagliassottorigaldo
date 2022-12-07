@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-screen">
+    <div>
         <Header :conf="conf" />
         <Info :title="`I nostri contatti`">
             <ul class="w-fit mx-auto mt-5">

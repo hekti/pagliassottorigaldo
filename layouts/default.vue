@@ -1,8 +1,7 @@
 <template>
-  <div class="touchableContainer">
+  <div>
     <slot />
     <Menu />
-    <Footer />
   </div>
 </template>
 
