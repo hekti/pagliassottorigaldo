@@ -26,7 +26,6 @@ const conf = {
     'bgImage': "p-5142.jpg",
     'bgGrad': ["darkGreen", "lightGreen"],
 }
-
 </script>
 
 <style scoped>
