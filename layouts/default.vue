@@ -1,5 +1,5 @@
 <template>
-  <div id="touchable">
+  <div>
     <slot />
     <Menu />
   </div>
@@ -35,31 +35,6 @@
 
 <script>
 
-import TouchEvent from '@/TouchEvent'
 
-let touchEvent = null;
-
-document.addEventListener('touchstart', (event) => {
-  touchEvent = new TouchEvent(event);
-});
-
-document.addEventListener('touchend', handleSwipe);
-
-function handleSwipe(event) {
-  if (!touchEvent) {
-    return;
-  }
-
-  touchEvent.setEndEvent(event);
-
-  if (touchEvent.isSwipeRight()) {
-    // Do something
-  } else if (touchEvent.isSwipeLeft()) {
-    // Do something different
-  }
-
-  // Reset event for next touch
-  touchEvent = null;
-}
 
 </script>
