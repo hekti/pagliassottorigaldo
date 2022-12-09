@@ -1,20 +1,22 @@
 <template>
-    <div>
+    <div class="min-h-full">
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
 
-        <div class="p-5 m-3 md:mx-auto md:max-w-lg md:left-0 md:right-0 text-textLight fixed bottom-32">
+        <div
+            class="p-8 m-3 md:m-auto md:h-fit md:max-w-lg md:left-0 md:right-0 md:top-0 md:bottom-0 text-textLight fixed bottom-16">
             <h2 class="text-6xl font-normal my-4">Lorem<br> Ipsum</h2>
             <p class="font-thin text-textLight text-opacity-80 text-sm drop-shadowxl">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti alias ducimus eum, rem inventore ipsa
-                soluta nobis, quo suscipit, sapiente quibusdam iste? Magnam quaerat libero expedita nulla a consectetur
+                soluta nobis, quo suscipit, <b>sapiente</b> quibusdam iste? Magnam quaerat libero expedita nulla a
+                consectetur
                 assumenda.</p>
-            
-            <p class="font-thin text-textLight text-opacity-80 text-sm drop-shadowxl">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magni numquam molestiae qui dicta rerum similique veritatis voluptatibus. Itaque harum sapiente ex eveniet maxime iure eaque neque veritatis, pariatur, iste similique.</p>
-
+            <NuxtLink to="services" class="btn-primary w-full box-border md:max-w-sm mx-auto">
+                Servizi
+            </NuxtLink>
 
         </div>
-        
+
     </div>
 </template>
 

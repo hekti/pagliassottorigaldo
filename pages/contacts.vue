@@ -1,6 +1,7 @@
 <template>
-    <div>
+    <div class="min-h-full">
         <Header :conf="conf" />
+        <div class="wrap-shadow"></div>
         <Info :title="`I nostri contatti`">
             <ul class="w-fit mx-auto mt-5">
                 <li>
@@ -42,6 +43,10 @@ const conf = {
 
 li {
     @apply my-3 flex items-center
+}
+
+.wrap-shadow {
+    @apply fixed top-0 -z-10 bg-gradient-to-b  from-darkYellow via-transparent to-transparent w-screen h-screen
 }
 </style>
 

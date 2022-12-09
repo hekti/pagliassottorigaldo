@@ -3,7 +3,7 @@
         {{ studioName }}
     </h1>
 
-    <div class="fixed -z-10 top-0 bottom-0 left-0 right-0  bg-gradient-to-b from-darkGreen to-lightGreen">
+    <div class="fixed -z-10 top-0 bottom-0 left-0 right-0  bg-gradient-to-b from-darkGreen to-lightGreen h-screen w-screen">
         <img v-if="conf.bgImage" :src="`/img/${conf.bgImage}`" class="object-cover h-full w-full" :alt="`${conf.bgImageAlt}`" />
     </div>
     

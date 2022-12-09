@@ -1,6 +1,7 @@
 <template>
-    <div>
+    <div class="min-h-full">
         <Header :conf="conf" />
+        <div class="wrap-shadow"></div>
         <Info :title="`Lo studio Pagliasotto`">
             <p class=" my-3 flex items-center justify-end"><span>+500 clienti soddisfatti</span> <span
                     class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">4.9</b>
@@ -28,5 +29,7 @@ const conf = {
 </script>
 
 <style scoped>
-
+.wrap-shadow {
+    @apply fixed top-0 -z-10 bg-gradient-to-b  from-darkYellow via-transparent to-transparent w-screen h-screen
+}
 </style>
