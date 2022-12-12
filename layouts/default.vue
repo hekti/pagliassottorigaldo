@@ -1,5 +1,5 @@
 <template>
-  <Swipe>
+  <Swipe class="h-screen w-screen">
     <slot />
     <Menu />
   </Swipe>
