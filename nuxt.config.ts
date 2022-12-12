@@ -16,4 +16,7 @@ export default defineNuxtConfig({
       ],
     },
   },
+  modules: [
+    '@emanuele-em/nuxt-swipe'
+  ]
 })
