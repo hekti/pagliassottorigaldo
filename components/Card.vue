@@ -4,7 +4,7 @@
             <img :src="`/img/${service.image}`" :alt="`${service.title}`">
         </div>
         <h3 class="text-center leading-none mt-2 mb-1 text-textLight md:text-lg">{{ service.title }}</h3>
-        <p class="text-textDark font-semibold drop-shadow-md md:text-lg">€ {{ service.price }}</p>
+        <!-- <p class="text-textDark font-semibold drop-shadow-md md:text-lg">€ {{ service.price }}</p> -->
     </div>
 </template>
 
