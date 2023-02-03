@@ -3,8 +3,8 @@
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
         <Info :title="`Lo studio Pagliasotto`">
-            <p class=" my-3 flex items-center justify-end"><span>+500 clienti soddisfatti</span> <span
-                    class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">4.9</b>
+            <p class=" my-3 flex items-center justify-end"><span>clienti soddisfatti</span> <span
+                    class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">5.0</b>
             </p>
 
             <p>Lo studio offre un servizio attento e personalizzato ai propri clienti, garantendo <strong>professionalità, tempestività e precisione</strong> in ogni attività svolta.</p>

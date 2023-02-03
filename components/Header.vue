@@ -1,5 +1,8 @@
 <template>
-    <h1 :class="`font-medium capitalize container text-center text-4xl md:text-5xl w-screen py-9 mx-auto ${ conf.bgLight ? 'text-textDark' : 'text-textLight' }`">
+    <div class="flex justify-center pt-6">
+        <img :src="`/img/logo.png`" class="w-32 drop-shadow-lg" :alt="`${conf.bgImageAlt}`" />
+    </div>
+    <h1 :class="`font-medium capitalize container text-center text-4xl md:text-5xl w-screen py-6 mx-auto ${ conf.bgLight ? 'text-textDark' : 'text-textLight' }`">
         {{ studioName }}
     </h1>
 
