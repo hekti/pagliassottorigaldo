@@ -7,11 +7,7 @@
                     class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">5.0</b>
             </p>
 
-            <p>Lo studio offre un servizio attento e personalizzato ai propri clienti, garantendo <strong>professionalità, tempestività e precisione</strong> in ogni attività svolta.</p>
-            <br>
-            <p>L'obiettivo è quello di fornire un supporto continuo alla crescita delle PMI del settore <b>ICT</b>, delle imprese non delocalizzabili, delle <b>start-up</b> e degli <b>enti no profit</b> di media dimensione. Inoltre, lo studio offre assistenza a professionisti, associazioni professionali e STP dell'<b>area medica</b>, a privati con <b>patrimoni immobiliari</b> sia in Italia che all'estero.</p>
-            <br>
-            <p>L'aggiornamento professionale continuo e l'innovazione sono al centro della filosofia dello studio Pagliasotto-Rigaldo, per garantire sempre il massimo livello di servizi ai propri clienti.</p>
+            <p>Come studio, offriamo un servizio personalizzato e attento ai nostri clienti, garantendo professionalità, tempestività e precisione in ogni attività. Il nostro obiettivo è supportare la crescita delle PMI del settore <b>ICT</b>, delle imprese non delocalizzabili, delle <b>start-up</b>, e degli enti <b>no profit</b> di media dimensione, così come fornire assistenza a professionisti, associazioni professionali e STP dell'area medica e a privati con patrimoni immobiliari sia in Italia che all'estero. </p><br><p>Siamo impegnati nell'<b>aggiornamento professionale continuo</b> e nell'innovazione per garantire sempre il massimo livello di servizi ai nostri clienti.</p>
 
             <NuxtLink to="contacts" class="btn-primary">
                 Contattaci
