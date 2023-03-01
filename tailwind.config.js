@@ -19,7 +19,8 @@ module.exports = {
         'menuBackground': '#000000',
       },
       fontFamily: {
-        'serif': ['Cormorant', 'serif']
+        'serif': ['Cormorant', 'serif'],
+        fabada: ["Fabada", "sans-serif"],
       }
     },
   },
