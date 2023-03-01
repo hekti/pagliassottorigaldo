@@ -21,6 +21,7 @@ module.exports = {
       fontFamily: {
         'serif': ['Cormorant', 'serif'],
         fabada: ["Fabada", "sans-serif"],
+        calibri: ["Calibri", "sans-serif"],
       }
     },
   },

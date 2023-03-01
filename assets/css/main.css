@@ -11,7 +11,7 @@
 
   html,
   body {
-    @apply font-serif font-light h-screen;
+    @apply font-calibri font-light h-screen;
   }
 
   .logoFont {

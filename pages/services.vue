@@ -37,4 +37,7 @@ const conf = {
     .card{
         break-inside: avoid-column;
     }
+
+
+
 </style>
