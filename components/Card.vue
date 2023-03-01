@@ -3,14 +3,14 @@
         <div class="rounded-xl overflow-hidden drop-shadow-lg">
             <img :src="`/img/${service.image}`" :alt="`${service.title}`">
         </div>
-        <h3 class="text-center leading-none mt-2 mb-1 text-textLight md:text-lg">{{ service.title }}</h3>
+        <h3 class="text-center leading-none mt-2 mb-1 text-textLight md:text-lg drop-shadow-md">{{ service.title }}</h3>
         <!-- <p class="text-textDark font-semibold drop-shadow-md md:text-lg">€ {{ service.price }}</p> -->
     </div>
 
     <div v-if="showElement == service.title" class="popup cursor-auto">
         <div class="fixed w-screen h-screen backdrop-blur-sm top-0 bottom-0 right-0 left-0 z-10 brightness-75 cursor-pointer" @click="showElement = 0"></div>
         <Info :title="`${service.title}`" class="z-20">
-            <p>{{ service.description }}</p>
+            <p >{{ service.description }}</p>
         </Info>
     </div>  
 
