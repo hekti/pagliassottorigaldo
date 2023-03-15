@@ -1,5 +1,5 @@
 <template >
-    <div class="fixed bottom-3 right-3 left-3 p-5 py-4 md:py-3 h-fit rounded-2xl lightBackground md:w-fit max-w-screen-sm mx-auto border semitransparentBorder backdrop-blur-md z-15">
+    <div class="fixed bottom-3 right-3 left-3 p-5 py-4 md:py-3 h-fit rounded-2xl lightBackground md:w-fit max-w-screen-sm mx-auto shadow-xl semitransparentBorder backdrop-blur-md z-15">
         <ul class="flex justify-around items-center">
             <li class="h-fit">
                 <NuxtLink to="/" class="h-fit">

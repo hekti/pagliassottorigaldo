@@ -17,7 +17,11 @@
   font-style: italic;
 }
 
-
+@font-face {
+  font-family: Calibri-light;
+  src: url("../fonts/Calibri-light.ttf");
+  font-style: normal;
+}
 @layer base {
 
   html,
@@ -42,6 +46,7 @@
   }
 
   .semitransparentBorder {
-    border-color: rgba(255, 255, 255, 0.2);
+    /* border-color: rgba(255, 255, 255, 0.2); */
+  
   }
 }

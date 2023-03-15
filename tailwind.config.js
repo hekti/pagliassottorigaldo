@@ -22,6 +22,7 @@ module.exports = {
         'serif': ['Cormorant', 'serif'],
         fabada: ["Fabada", "sans-serif"],
         calibri: ["Calibri", "sans-serif"],
+        'calibri-light': ["Calibri-light", "sans-serif"], 
       }
     },
   },
