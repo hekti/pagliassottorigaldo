@@ -6,6 +6,17 @@
     font-family: "Fabada";
     src: url("../fonts/Fabada-regular.otf");
   }
+@font-face {
+  font-family: Calibri;
+  src: url("../fonts/Calibri-regular.ttf");
+  font-style: normal;
+}
+@font-face {
+  font-family: Calibri;
+  src: url("../fonts/Calibri-italic.ttf");
+  font-style: italic;
+}
+
 
 @layer base {
 

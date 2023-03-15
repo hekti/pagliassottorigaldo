@@ -27,14 +27,14 @@
 
 <script setup>
 const conf = {
-    'bgLight': true,
-    'bgImage': "p-5159.jpg",
+    'bgLight': false,
+    'bgImage': "p-5142.jpg",
     'bgGrad': ["darkGreen", "lightGreen"],
 }
 </script>
 
 <style scoped>
 .wrap-shadow {
-    @apply fixed top-0 -z-10 bg-gradient-to-t from-transparent to-darkYellow w-screen h-screen
+    @apply fixed top-0 -z-10 bg-gradient-to-t from-textDark to-transparent w-screen h-screen
 }
 </style>

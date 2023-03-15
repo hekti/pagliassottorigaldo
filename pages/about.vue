@@ -7,7 +7,16 @@
                     class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">5.0</b>
             </p>
 
-            <p>Come studio, offriamo un servizio personalizzato e attento ai nostri clienti, garantendo professionalità, tempestività e precisione in ogni attività. Il nostro obiettivo è supportare la crescita delle PMI del settore <b>ICT</b>, delle imprese non delocalizzabili, delle <b>start-up</b>, e degli enti <b>no profit</b> di media dimensione, così come fornire assistenza a professionisti, associazioni professionali e STP dell'area medica e a privati con patrimoni immobiliari sia in Italia che all'estero. </p><br><p>Siamo impegnati nell'<b>aggiornamento professionale continuo</b> e nell'innovazione per garantire sempre il massimo livello di servizi ai nostri clienti.</p>
+            <p>Da sempre attenti alla formazione e all'aggiornamento professionale
+continuo offriamo un servizio personalizzato ed attento alle esigenze
+dei clienti. Assistiamo le aziende sin dalla fase di start-up, per la
+gestione ordinaria e per quella straordinaria. Il nostro settore
+dedicato alla clientela privata fornisce assistenza in materia fiscale,
+contrattuale di sistemazione patrimoniale anche in fase successoria.
+</p><br><p>
+Abbiamo consolidati rapporti con professionisti esperti in diritto
+civile e penale, diritto fallimentare e gestione delle paghe e
+contributi, per supportare il cliente in ogni sua necessit&agrave;.</p>
 
             <NuxtLink to="contacts" class="btn-primary">
                 Contattaci

@@ -10,7 +10,7 @@
     <div v-if="showElement == service.title" class="popup cursor-auto">
         <div class="fixed w-screen h-screen backdrop-blur-sm top-0 bottom-0 right-0 left-0 z-10 brightness-75 cursor-pointer" @click="showElement = 0"></div>
         <Info :title="`${service.title}`" class="z-20">
-            <p >{{ service.description }}</p>
+            <div v-html="service.description"></div>
         </Info>
     </div>  
 
