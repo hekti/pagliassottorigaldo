@@ -1,8 +1,8 @@
 <template>
-    <div class="min-h-full">
+    <div class="min-h-full flex flex-col pb-36">
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
-        <Info :title="`Lo studio Pagliasotto`">
+        <Info>
             <p class="
             my-3
             flex

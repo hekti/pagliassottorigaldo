@@ -1,5 +1,5 @@
 <template>
-    <div class="min-h-full">
+    <div class="min-h-full flex flex-col pb-36">
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
         <Info :title="`I nostri contatti`">
@@ -8,12 +8,12 @@
                     <span class="material-symbols-rounded">call</span> <a href="tel:+390115171224">+39 011 517 1224</a>
                 </li>
                 <li>
-                    <span class="material-symbols-rounded">mail</span> <a
-                        href="mailto:studiopagliassotto">info@studiopagliassotto.com</a>
+                    <span class="material-symbols-rounded">mail</span>
+                    <a href="mailto:studiopagliassotto"> info@studiopagliassotto.com </a>
                 </li>
                 <li>
-                    <span class="material-symbols-rounded">location_on</span> <a href="link_to_maps">Torino, Corso
-                        Vinzaglio, 29</a>
+                    <span class="material-symbols-rounded">location_on</span>
+                    <a href="https://maps.app.goo.gl/33F93g9fKqbpoABi6" target="_blank"> Torino, Corso Vinzaglio, 29 </a>
                 </li>
                 <li>
                     <span class="material-symbols-rounded">schedule</span> <span ref="el" ></span>
