@@ -3,15 +3,41 @@
         <Header :conf="conf" />
         <div class="wrap-shadow"></div>
         <Info :title="`Lo studio Pagliasotto`">
-            <p class=" my-3 flex items-center justify-end"><span>clienti soddisfatti</span> <span
-                    class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span> <b class="text-lg">5.0</b>
+            <p class="
+            my-3
+            flex
+            items-center
+            justify-end
+            ">
+                <span>clienti soddisfatti</span>
+                <span class="material-symbols-rounded text-yellow-500 ml-2 -mt-2"> star </span>
+                <b class="text-lg">5.0</b>
             </p>
 
-            <p>Come studio, offriamo un servizio personalizzato e attento ai nostri clienti, garantendo professionalità, tempestività e precisione in ogni attività. Il nostro obiettivo è supportare la crescita delle PMI del settore <b>ICT</b>, delle imprese non delocalizzabili, delle <b>start-up</b>, e degli enti <b>no profit</b> di media dimensione, così come fornire assistenza a professionisti, associazioni professionali e STP dell'area medica e a privati con patrimoni immobiliari sia in Italia che all'estero. </p><br><p>Siamo impegnati nell'<b>aggiornamento professionale continuo</b> e nell'innovazione per garantire sempre il massimo livello di servizi ai nostri clienti.</p>
+            <p>
+            Lo Studio Pagliassotto Rigaldo nasce nel 1996 e si avvale
+            dell'esperienza ultra trentennale di commercialisti specializzati in
+            consulenza societaria, fiscale, amministrativa-contabile utilizzando le
+            soluzioni tecnologiche più all'avanguardia.
+            </p>
+            <br>
+            <p>
+            Abbiamo consolidati rapporti con professionisti esperti in diritto
+            civile e penale, diritto fallimentare e gestione delle paghe e
+            contributi, per supportare il cliente in ogni sua necessità.
+            </p>
+            <br>
+            <p>
+            Ci distinguiamo per la combinazione unica di dinamismo, innovazione,
+            competenza, etica. Il nostro scopo è offrire soluzioni ai clienti con
+            professionalità e affidabilità. Siamo pronti a mettere la nostra
+            esperienza e competenza al vostro servizio.
+            </p>
 
             <NuxtLink to="contacts" class="btn-primary">
                 Contattaci
             </NuxtLink>
+
         </Info>
     </div>
 </template>

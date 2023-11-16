@@ -35,17 +35,18 @@ const conf = {
 
 const hours = [
     [],
-    [9, 13, 14, 18],
-    [9, 13, 14, 18],
-    [9, 13, 14, 18],
-    [9, 13, 14, 18],
-    [9, 13, 14, 18],
+    [9, 13, 14.5, 17.5],
+    [9, 13, 14.5, 17.5],
+    [9, 13, 14.5, 17.5],
+    [9, 13, 14.5, 17.5],
+    [9, 13],
     [],
 ]
 
 var date = new Date();
 var today = date.getDay();
 var current_hour = date.getHours() + date.getMinutes() / 60;
+console.log(current_hour);
 
 const weekDay = (i) => {
     switch (i) {
